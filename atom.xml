@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-29T11:46:17.812Z</updated>
+  <updated>2020-02-29T11:49:37.637Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/02/29/hello-world/"/>
     <id>http://yoursite.com/2020/02/29/hello-world/</id>
     <published>2020-02-29T11:43:43.016Z</published>
-    <updated>2020-02-29T11:46:17.812Z</updated>
+    <updated>2020-02-29T11:49:37.637Z</updated>
     
-    <content type="html"><![CDATA[<p>—第一次建立个网站，折腾了一上午，本来想着去阿里云买个域名，也不贵，一年7元吧，但后来还是决定部署github了，不花钱可能就是名字没有那么高大尚！折腾个网站也就是记录记录干了些什么，以后能回忆回忆，哈哈哈。还有些功能还没探索，慢慢来吧，顺便用用Markdown，主要它支持多平台MacOS 、Windows、Linux,这个就很好,下一期就把建网站过程纪律一下吧！<br>title: hello world<br>date: 2020-02-29 19:43:43</p><h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2>]]></content>
+    <content type="html"><![CDATA[<p>—第一次建立个网站，折腾了一上午，本来想着去阿里云买个域名，也不贵，一年7元吧，但后来还是决定部署github了，不花钱可能就是名字没有那么高大尚！折腾个网站也就是记录记录干了些什么，以后能回忆回忆，哈哈哈。还有些功能还没探索，慢慢来吧，顺便用用Markdown，主要它支持多平台MacOS 、Windows、Linux,等下一期就把建网站过程纪录一下吧！<br>title: hello world<br>date: 2020-02-29 19:43:43</p><h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2>]]></content>
     
     <summary type="html">
     
