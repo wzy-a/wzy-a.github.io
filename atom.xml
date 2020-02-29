@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-29T08:49:39.317Z</updated>
+  <updated>2020-02-29T11:09:55.741Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,19 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hello</title>
-    <link href="http://yoursite.com/2020/02/29/hello/"/>
-    <id>http://yoursite.com/2020/02/29/hello/</id>
-    <published>2020-02-29T08:46:20.113Z</published>
-    <updated>2020-02-29T08:49:39.317Z</updated>
+    <title>first</title>
+    <link href="http://yoursite.com/2020/02/29/first/"/>
+    <id>http://yoursite.com/2020/02/29/first/</id>
+    <published>2020-02-29T11:02:14.004Z</published>
+    <updated>2020-02-29T11:09:55.741Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="折腾了半天的网站搞好了，博客部署在github上"><a href="#折腾了半天的网站搞好了，博客部署在github上" class="headerlink" title="折腾了半天的网站搞好了，博客部署在github上"></a>折腾了半天的网站搞好了，博客部署在github上</h2><p><strong>一系列问题处理完后</strong></p><p><strong>HELLO WORLD!  !  !</strong><br>title: hello<br>date: 2020-02-29 16:46:20</p><h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2>]]></content>
+    <content type="html"><![CDATA[<p>—第一次建立个网站，折腾了一上午，本来想着去阿里云买个域名，也不贵，一年7元吧，但后来还是决定部署github了，不花钱可能就是名字没有那么高大尚！折腾个网站也就是记录记录干了些什么，以后能回忆回忆，哈哈哈。还有些功能还没探索，慢慢来吧，顺便用用Markdown，主要它支持多平台MacOS 、Windows、Linux,这个就很好,下一期就把建网站过程纪律一下吧！<br>title: first<br>date: 2020-02-29 19:02:13</p><h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;折腾了半天的网站搞好了，博客部署在github上&quot;&gt;&lt;a href=&quot;#折腾了半天的网站搞好了，博客部署在github上&quot; class=&quot;headerlink&quot; title=&quot;折腾了半天的网站搞好了，博客部署在github上&quot;&gt;&lt;/a&gt;折腾了半天的网站搞好了，博客
+        &lt;p&gt;—第一次建立个网站，折腾了一上午，本来想着去阿里云买个域名，也不贵，一年7元吧，但后来还是决定部署github了，不花钱可能就是名字没有那么高大尚！折腾个网站也就是记录记录干了些什么，以后能回忆回忆，哈哈哈。还有些功能还没探索，慢慢来吧，顺便用用Markdown，主要它支持
       
     
     </summary>
