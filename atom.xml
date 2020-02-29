@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-29T08:07:58.524Z</updated>
+  <updated>2020-02-29T08:49:39.317Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello</title>
+    <link href="http://yoursite.com/2020/02/29/hello/"/>
+    <id>http://yoursite.com/2020/02/29/hello/</id>
+    <published>2020-02-29T08:46:20.113Z</published>
+    <updated>2020-02-29T08:49:39.317Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="折腾了半天的网站搞好了，博客部署在github上"><a href="#折腾了半天的网站搞好了，博客部署在github上" class="headerlink" title="折腾了半天的网站搞好了，博客部署在github上"></a>折腾了半天的网站搞好了，博客部署在github上</h2><p><strong>一系列问题处理完后</strong></p><p><strong>HELLO WORLD!  !  !</strong><br>title: hello<br>date: 2020-02-29 16:46:20</p><h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;折腾了半天的网站搞好了，博客部署在github上&quot;&gt;&lt;a href=&quot;#折腾了半天的网站搞好了，博客部署在github上&quot; class=&quot;headerlink&quot; title=&quot;折腾了半天的网站搞好了，博客部署在github上&quot;&gt;&lt;/a&gt;折腾了半天的网站搞好了，博客
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
