@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-05T04:02:10.839Z</updated>
+  <updated>2020-03-08T13:52:27.627Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用hexo搭建自己的网站</title>
+    <link href="http://yoursite.com/2020/03/08/%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%BD%91%E7%AB%99/"/>
+    <id>http://yoursite.com/2020/03/08/用hexo搭建自己的网站/</id>
+    <published>2020-03-08T13:48:59.884Z</published>
+    <updated>2020-03-08T13:52:27.627Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="搭建自己的网站"><a href="#搭建自己的网站" class="headerlink" title="搭建自己的网站"></a>搭建自己的网站</h1><h2 id="1-安装Node-js"><a href="#1-安装Node-js" class="headerlink" title="1.安装Node.js"></a>1.安装Node.js</h2><h2 id="选择你的操作系统，我的是在-Windows-环境下安装-Node-js，只需要到官网下载安装即可-https-nodejs-org-en-download-images-2-png"><a href="#选择你的操作系统，我的是在-Windows-环境下安装-Node-js，只需要到官网下载安装即可-https-nodejs-org-en-download-images-2-png" class="headerlink" title="选择你的操作系统，我的是在 Windows 环境下安装 Node.js，只需要到官网下载安装即可  https://nodejs.org/en/download/![](/images/2.png)"></a>选择你的操作系统，我的是在 Windows 环境下安装 Node.js，只需要到官网下载安装即可  <a href="https://nodejs.org/en/download/![](/images/2.png)" target="_blank" rel="noopener">https://nodejs.org/en/download/![](/images/2.png)</a></h2><p>title: 用hexo搭建自己的网站<br>date: 2020-03-08 15:21:27</p><h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;搭建自己的网站&quot;&gt;&lt;a href=&quot;#搭建自己的网站&quot; class=&quot;headerlink&quot; title=&quot;搭建自己的网站&quot;&gt;&lt;/a&gt;搭建自己的网站&lt;/h1&gt;&lt;h2 id=&quot;1-安装Node-js&quot;&gt;&lt;a href=&quot;#1-安装Node-js&quot; class=&quot;he
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>stm32f10X</title>
