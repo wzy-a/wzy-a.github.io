@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-05T04:02:10.839Z</updated>
+  <updated>2020-03-20T14:18:44.765Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>blog之旅</title>
+    <link href="http://yoursite.com/2020/03/20/blog%E4%B9%8B%E6%97%85/"/>
+    <id>http://yoursite.com/2020/03/20/blog之旅/</id>
+    <published>2020-03-20T11:06:59.874Z</published>
+    <updated>2020-03-20T14:18:44.765Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="搭建自己的网站"><a href="#搭建自己的网站" class="headerlink" title="搭建自己的网站"></a>搭建自己的网站</h1><h2 id="1-安装Node-js"><a href="#1-安装Node-js" class="headerlink" title="1.安装Node.js"></a>1.安装Node.js</h2><p>选择你的操作系统，我的是在 Windows 环境下安装 Node.js，只需要到官网下载安装即可     <a href="https://nodejs.org/en/download/,下载即可。" target="_blank" rel="noopener">https://nodejs.org/en/download/,下载即可。</a><br><img src="/2020/03/20/blog%E4%B9%8B%E6%97%85/2.png" alt><br>git官网<br><a href="https://note.youdao.com/" target="_blank" rel="noopener">http://gitforwindows.org/</a><br><img src="/2020/03/20/blog%E4%B9%8B%E6%97%85/3.png" alt><br>然后下图配置git<br>在Windows Explorer integration选项中将“Git Bash here”和“Git GUI here”打对勾<br><img src="/2020/03/20/blog%E4%B9%8B%E6%97%85/4.png" alt><br>在“Adjusting your PATH environment”选项中，默认即可<br>在“Configuring the line ending conversions”选项中，<br>第一个选项：如果是跨平台项目，在windows系统安装，选择；<br>第二个选项：如果是跨平台项目，在Unix系统安装，选择；<br>第三个选项：非跨平台项目，选择。<br><img src="/2020/03/20/blog%E4%B9%8B%E6%97%85/5.png" alt><br><img src="/2020/03/20/blog%E4%B9%8B%E6%97%85/6.png" alt><br>安装完成后，单机右键可以看到Git GUI Here和Git Bash Here（我们将用第二个)</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure><p>创建Hexo文件夹<br>安装完成后，根据自己喜好建立目录（如D:\wzyblog），直接进入D:\wzyblog文件夹下右键鼠标，点击Git Bash Here，进入Git命令框，执行以下操作。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure><p>运行完如下图<br><img src="/2020/03/20/blog%E4%B9%8B%E6%97%85/7.png" alt><br>如果命令无法运行，可以尝试更换taobao的npm源</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure><p>创建一个Hexo文件夹<br>安装完成后，根据自己喜好建立目录（如F:\Blog\Hexo），直接进入F:\Blog\Hexo文件夹下右键鼠标，点击Git Bash Here，进入Git命令框，执行以下操作<br>安装Hexo插件<br>将下面的插件都安装完。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-index --save</span><br><span class="line">npm install hexo-generator-archive --save</span><br><span class="line">npm install hexo-generator-category --save</span><br><span class="line">npm install hexo-generator-tag --save</span><br><span class="line">npm install hexo-server --save</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-deployer-heroku --save</span><br><span class="line">npm install hexo-deployer-rsync --save</span><br><span class="line">npm install hexo-deployer-openshift --save</span><br><span class="line">npm install hexo-renderer-marked@0.2 --save</span><br><span class="line">npm install hexo-renderer-stylus@0.2 --save</span><br><span class="line">npm install hexo-generator-feed@1 --save</span><br><span class="line">npm install hexo-generator-sitemap@1 --save</span><br></pre></td></tr></table></figure><p>运行如下代码可在本地查看  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure><p>过后此代码可已变成,输入更加方便  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>本地运行窗口如下<br><img src="/2020/03/20/blog%E4%B9%8B%E6%97%85/8.png" alt><br><strong>将博客部署到Github Pages上</strong>  </p><ol><li>注册GitHub账户  </li><li>创建代码库，点击New repository  </li><li>项目名字必须为  </li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">usename.github.io</span><br></pre></td></tr></table></figure><p>这是官方规定的，也是你将来的域名<br>在下面的Initialize this repository with a README打勾，然后创建项目库</p><ol start="4"><li>配置SSH密钥</li><li>首先查看本机是否存在SSH密钥，打开Git Bash，输入</li><li>输入</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls -al ~&#x2F;.ssh</span><br></pre></td></tr></table></figure><ol start="7"><li>如果不存在此目录，则进行第二步操作，否则，你本机已经存在ssh公钥和私钥，可以略过第二步，直接进入第三步操作。</li><li>创建一对新的SSH密钥(keys)<br><img src="/2020/03/20/blog%E4%B9%8B%E6%97%85/10.png" alt>  </li><li>这将按照你提供的邮箱地址，创建一对密钥</li><li>直接回车，则将密钥按默认文件进行存储。此时也可以输入特定的文件名，比如/c/Users/you/.ssh/github_rsa</li><li>接着，根据提示，你需要输入密码和确认密码（如果你很放心，可以不用密码，就是到输密码的地方，都直接回车，所以每次push就只管回车就行了)。 相关提示</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase):[Type a passphrase]</span><br><span class="line">Enter same passphrase again:[Type passphrase again]</span><br></pre></td></tr></table></figure><p>输入完成之后，屏幕会显示如下信息：<br><img src="/2020/03/20/blog%E4%B9%8B%E6%97%85/10.png" alt><br><strong>在GitHub账户中添加你的公钥  </strong><br>运行如下命令，将公钥的内容复制到系统粘贴板(clipboard)中。<br>clip &lt; ~/.ssh/id_rsa.pub<br>登陆GitHub,进入你的Account Settings.</p><h2 id><a href="#" class="headerlink" title="  "></a><img src="/2020/03/20/blog%E4%B9%8B%E6%97%85/9.png" alt>  </h2><p>title: blog之旅<br>date: 2020-03-20 19:06:59</p><h2 id="tags"><a href="#tags" class="headerlink" title="tags:"></a>tags:</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;搭建自己的网站&quot;&gt;&lt;a href=&quot;#搭建自己的网站&quot; class=&quot;headerlink&quot; title=&quot;搭建自己的网站&quot;&gt;&lt;/a&gt;搭建自己的网站&lt;/h1&gt;&lt;h2 id=&quot;1-安装Node-js&quot;&gt;&lt;a href=&quot;#1-安装Node-js&quot; class=&quot;he
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>stm32f10X</title>
