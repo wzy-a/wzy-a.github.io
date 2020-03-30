@@ -2480,7 +2480,7 @@ figure.gallery-group .gallery-group-name:after {
   transition: all 0.5s;
 }
 #nav.full_page {
-  height: ;
+  height: 300px# 主頁top_img高度 例如 300px/300em/300rem  不能使用百分比;
 }
 #nav.full_page #site-info {
   position: absolute;
