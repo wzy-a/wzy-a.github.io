@@ -2480,11 +2480,11 @@ figure.gallery-group .gallery-group-name:after {
   transition: all 0.5s;
 }
 #nav.full_page {
-  height: ;
+  height: 300px# 主頁top_img高度 例如 300px/300em/300rem  不能使用百分比;
 }
 #nav.full_page #site-info {
   position: absolute;
-  top: 80%# 主頁標題距離頂部距離  例如 300px/300em/300rem/10%;
+  top: 100%# 主頁標題距離頂部距離  例如 300px/300em/300rem/10%;
   padding: 0 0.5rem;
   width: 100%;
 }
