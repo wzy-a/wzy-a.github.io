@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-29T09:30:12.932Z</updated>
+  <updated>2020-04-04T07:46:48.344Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>汉诺塔问题的c语言实现</title>
+    <link href="http://yoursite.com/2020/04/04/%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%E7%9A%84c%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0/"/>
+    <id>http://yoursite.com/2020/04/04/汉诺塔问题的c语言实现/</id>
+    <published>2020-04-04T07:25:20.393Z</published>
+    <updated>2020-04-04T07:46:48.344Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="汉诺塔问题的C语言实现"><a href="#汉诺塔问题的C语言实现" class="headerlink" title="汉诺塔问题的C语言实现"></a>汉诺塔问题的C语言实现</h1><p>汉诺塔问题是一个经典的递归问题，其有3根柱子分别是：A，B，C。第一根柱子A上有n个盘子，从上到下依次增大，要第一根柱子A上的所有的盘子移动到第三根柱子C上，整个过程都必须满足一根柱子上的盘子从上到下依次增大。<br><img src="/" class="lazyload" data-src="/2020/04/04/%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98%E7%9A%84c%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0/1.png"  alt>  </p><hr><p>title: 汉诺塔问题的c语言实现<br>date: 2020-04-04 15:25:20</p><h2 id="tags-学习"><a href="#tags-学习" class="headerlink" title="tags:学习"></a>tags:学习</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;汉诺塔问题的C语言实现&quot;&gt;&lt;a href=&quot;#汉诺塔问题的C语言实现&quot; class=&quot;headerlink&quot; title=&quot;汉诺塔问题的C语言实现&quot;&gt;&lt;/a&gt;汉诺塔问题的C语言实现&lt;/h1&gt;&lt;p&gt;汉诺塔问题是一个经典的递归问题，其有3根柱子分别是：A，B，C。第一
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>傅里叶变换推导</title>
